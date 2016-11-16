@@ -15,7 +15,7 @@ and inspired by [Basscss](http://basscss.com) and
 npm i axs
 ```
 
-Axs consists of two core primitive components, Box and Text.
+Axs consists of two core primitive components, `Box` and `Text`.
 
 ```jsx
 // Basic example
@@ -64,7 +64,7 @@ Use the Box component for visual containers and grids.
 <Box>Generic div</Box>
 ```
 
-Use the Text component for headings, labels, and any other UI typography.
+Use the `Text` component for headings, labels, and any other UI typography.
 
 ```jsx
 <Text>Paragraph element</Text>
@@ -217,7 +217,7 @@ Responsive font sizes work the same.
   is='h2'
   size={[
     3, // 24px for all screens
-    2, // 32px at the small breakpoin
+    2, // 32px at the small breakpoint
     1, // 48px at the medium breakpoint
     96 // Set raw pixel values for one-one styling situations
   ]}>
@@ -281,7 +281,7 @@ const Input = props => (
 
 ## Props API
 
-The following props are available on both Box and Text components.
+The following props are available on both `Box` and `Text` components.
 
 - `css` - style object for cxs - will be converted into a unique className and inject styles into the head of the document. Supports pseudoclasses, media queries, keyframes, and nesting.
 - `is` - sets a custom tag or component
@@ -325,7 +325,7 @@ Includes all colors from [open-color](https://github.com/yeun/open-color)
 
 ### Box-specific Props
 
-The following props are available only on Box components.
+The following props are available only on `Box` components.
 
 #### Width
 
@@ -348,7 +348,7 @@ The following props are available only on Box components.
 
 ### Text-Specific Props
 
-The following props only work on Text components.
+The following props only work on `Text` components.
 
 - `size` - (number or array) sets font size based on the typographic scale (0–6)
 - `bold` - (boolean) sets font weight bold
@@ -395,7 +395,7 @@ E.g. `borderBlue`
 
 ## Component Primitives
 
-In addition to Box and Text, the following primitive components can be imported.
+In addition to `Box` and `Text`, the following primitive components can be imported.
 
 ### Text Components
 
